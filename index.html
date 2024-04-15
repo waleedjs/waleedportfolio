@@ -1,0 +1,254 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./output.css">
+  <link rel="stylesheet" href="./input.css">
+
+  <!-- box icons -->
+  <link rel="stylesheet"
+  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+  <!-- swiper slider -->
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+</head>
+<body class="bg-black">
+    <!-- Header -->
+    <header class="fixed bg-background top-0 right-0 left-0 md:py-1 transition-all duration-300">
+        <nav class="max-w-7xl mx-auto bg-gray-800 md:bg-transparent p-5">
+            <div class="flex items-center justify-between">
+                <a href="/" class="text-white font-bold text-lg flex items-center gap-3"><img src="./img/Logo (3).svg" alt="">Portfolio</a>
+           
+            <!-- nav only for large devices -->
+            <div class="hidden md:flex space-x-10">
+                <a href="#home" class="text-white active:text-primary hover:text-gray-300">Home</a>
+                <a href="#Services" class="text-white hover:text-gray-300">Services</a>
+                <a href="#projects" class="text-white hover:text-gray-300">Projects</a>
+                <a href="#resume"  class="text-white hover:text-gray-300">Resume</a>
+                <a href="#contact"  class="text-white hover:text-gray-300">Contact</a>
+            </div>
+            <!-- menu btn, only display on mobile -->
+            <div class="md:hidden">
+                <button id="mobile-menu-button" class="text-white text-2xl">
+                    <i class='bx bx-menu'></i>
+                </button>
+
+            </div>
+        </div>
+         <!-- mobile menu -->
+         <div id="mobile-menu" class="hidden md:hidden">
+            <a href="#home" class="text-primary hover:text-gray-300 block  py-2 hover:bg-gray-700">Home</a>
+            <a href="#Services"  class="text-white hover:text-gray-300 block py-2 hover:bg-gray-700">Services</a>
+            <a href="#projects" class="text-white hover:text-gray-300 block py-2 hover:bg-gray-700">Projects</a>
+            <a href="#resume"  class="text-white hover:text-gray-300 block py-2 hover:bg-gray-700">Resume</a>
+            <a href="#contact"  class="text-white hover:text-gray-300 block py-2 hover:bg-gray-700">Contact</a>
+        </div>
+        </nav>
+    </header>
+
+
+    <!-- Banner section -->
+    <section class="max-w-7xl mx-auto px-5 my-12 overflow-hidden" id="home">
+        <div class=" pt-14 md:py-10 max-w-7xl text-white flex flex-col justify-center items-center md:flex-row md:justify-between md:items-center gap-4 md:mt-20 mt-5">
+            <!-- left side -->
+            <div class="md:w-1/2 md:mr-8">
+                <p class="md:text-2xl text-xl font-inter font-medium mb-4">Hello! <span class="text-primary md:text-2xl text-xl font-inter font-bold mb-4">I'm</span></p>
+                <h1 class="md:text-4xl text-2xl font-bold tracking-[3.22px] mb-5 font-inter">Muhammad <span class="md:text-4xl text-2xl font-bold tracking-[3.22px] mb-5 font-inter text-primary">Waleed Zafar</span></h1>
+                <p class="md:text-2xl text-xl font-montserrat mb-5">Wordpress, Shopify  Designer & Developer</p>
+                <p class="md:text-[16px] text-[14px] md:mb-12 mb-8 md:w-4/4 text-justify leading-8">With over three years of hands-on experience, I am a seasoned WordPress and Shopify developer and designer committed to delivering excellence in web development. Specializing in crafting bespoke solutions, I bring a unique blend of technical expertise and creative flair to every project. As a WordPress developer, I excel in creating custom themes and optimizing websites for performance and user experience. 
+                    </p>
+                <button class="md:py-3 md:px-10 py-2 px-6 rounded-md bg-primary hover:bg-slate-800 md:text-[16px] text-[14px] text-white font-medium">Lets Talk</button>
+                <!-- social icons -->
+                <div class="md:mt-12 mt-8 md:mb-8 flex gap-4 items-center">
+                    <p>Check out My:</p>
+                    <div class=" flex space-x-3">
+                        <a href="#"><img src="./img/instagram.svg" alt="" class="w-8 h-8"></a>
+                        <a href="#"><img src="./img/linkedIn.svg" alt="" class="w-8 h-8"></a>
+                        <a href="#"><img src="./img/twitter.svg" alt="" class="w-8 h-8"></a>
+                        <a href="#"><img src="./img/behance.svg" alt="" class="w-8 h-8"></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- right side -->
+            <div class="md:w-1/2 order-first md:order-none">
+                <img src="./img/Frame 40.png" alt="" class="md:w-full md:ml-20">
+            </div>
+        </div>
+
+    </section>
+
+  <!-- service section -->
+  <div class="bg-slate-500 ">
+  <section class=" max-w-7xl  py-12 md:mx-auto md:px-7  md:my-6 bg-black text-white" id="Services">
+    
+    <div class="text-center">
+      <p class=" text-white md:text-2xl text-xl font-inter font-medium mb-4">My Services</p>
+      <h3 class="text-primary md:text-4xl text-3xl font-bold md:mb-16 mb-8">What <span class="md:text-4xl text-3xl font-bold tracking-[3.22px] mb-5 font-inter text-white">I Do</span></h3>
+    </div>
+    <!-- service cards -->
+    
+    <div
+      class="max-w-6xl md:flex md:flex-row md:justify-between md:items-center  flex flex-col gap-6 "
+    >
+    <div
+    class=" mx-6 md:w-[400px] bg-background px-8 py-12 md:flex md:flex-col md:gap-3 rounded-lg border border-primary shadow-[#5dadec3b] cursor-pointer shadow-xl"
+  >
+    <img
+      src="./img/graphic-design.svg"
+      alt=""
+      class="w-[196px]  mx-auto"
+    />
+    <h5 class="text-center my-5 text-2xl font-medium ">WordPress <span class="text-center my-5 text-2xl font-bold text-primary">Developer</span></h5>
+    <p class="text-justify">
+      strive to create visually impact designs that effectively
+      communicate ,messages & meet their unique needs.
+    </p>
+  </div>
+  <div
+  class=" mx-6 md:w-[400px]  bg-background px-8 py-12 md:flex md:flex-col md:gap-3 rounded-lg border border-primary shadow-[#5dadec3b] cursor-pointer shadow-xl"
+>
+  <img
+    src="./img/graphic-design.svg"
+    alt=""
+    class="w-[196px]  mx-auto"
+  />
+  <h5 class="text-center my-5 text-2xl font-medium ">WordPress <span class="text-center my-5 text-2xl font-bold text-primary">Designer</span></h5>
+  <p class="text-justify">
+    strive to create visually impact designs that effectively
+    communicate ,messages & meet their unique needs.
+  </p>
+</div><div
+class=" mx-6 md:w-[400px]  bg-background px-8 py-12 md:flex md:flex-col md:gap-3 rounded-lg border border-primary shadow-[#5dadec3b] cursor-pointer shadow-xl"
+>
+<img
+  src="./img/graphic-design.svg"
+  alt=""
+  class="w-[196px] mx-auto"
+/>
+<h5 class="text-center my-5 text-2xl font-medium ">Figma <span class="text-center my-5 text-2xl font-bold text-primary">Designer</span></h5>
+<p class="text-justify">
+  strive to create visually impact designs that effectively
+  communicate ,messages & meet their unique needs.
+</p>
+</div>
+    </div>
+  </div>
+  </section>
+</div>
+
+  <!-- project section -->
+
+
+   <!-- projects -->
+   <section class="px-5 my-32 mx-auto max-w-7xl" id="projects">
+    <div class="text-center text-white">
+      <h3 class="text-primary md:text-4xl text-3xl font-bold  mb-8">My <span class="md:text-4xl text-3xl font-bold tracking-[3.22px] mb-5 font-inter text-white">Work</span></h3>
+
+      <p class="mb-6 md:w-3/4 mx-auto">
+        I bring a passion for creating user-friendly experiences and a drive
+        design trends and technologies to deliver top-notch designs that meet
+        needs and exceed their expectations
+      </p>
+    </div>
+    <div
+      class="flex md:flex-row flex-col items-center justify-between gap-8 my-20"
+    >
+      <div
+        class="border bg-background border-primary shadow-xl shadow-[#5dadec3b] md:w-[741px] md:h-96 mx-auto rounded-2xl p-5 md:p-0"
+      >
+        <img src="./img/project-1.svg" alt="" class="p-5 w-full hover:scale-105 transition-all duration-300" />
+      </div>
+      <div
+        class="border  bg-background border-primary shadow-xl shadow-[#5dadec3b] md:w-[741px] md:h-96 mx-auto rounded-2xl p-5"
+      >
+        <img src="./img/project-2.svg" alt="" class="w-full p-5 hover:scale-105 transition-all duration-300" />
+      </div>
+    </div>
+  </section>
+
+   
+   
+   <!-- reviews  -->
+   <section class="my-16 max-w-7xl mx-auto px-5" id="resume">
+    <div class="text-center">
+      <p class="mb-3 font-montserrat font-medium text-white">Testimonials</p>
+      <h3 class="text-primary text-3xl font-bold mb-16">
+        What Our Customers Say
+      </h3>
+    </div>
+
+    <!-- testimonial section -->
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide bg-background border-primary shadow-xl shadow-[#5dadec3b] p-10 py-8 px-3 text-white">
+          <img src="./img/review2.svg" alt="" />
+          <p class="text-sm px-2 my-5 text-justify">
+            I recently worked with Saira on a project and was extremely
+            impressed with their creativity and attention to detail. She
+            listened to my ideas and provided valuable input, which helped to
+            create a UI that was both aesthetically pleasing and easy to use.
+          </p>
+          <h5 class="text-primary mb-2">Tom Cook</h5>
+          <p class="text-sm px-2">Executive Engineer</p>
+        </div>
+        <div class="swiper-slide  bg-background border-primary shadow-xl shadow-[#5dadec3b] py-8 px-3 text-white">
+          <img src="./img/review1.svg" alt="" />
+          <p class="text-sm px-2 my-5 text-justify">
+            I recently worked with Saira on a project and was extremely
+            impressed with their creativity and attention to detail. She
+            listened to my ideas and provided valuable input, which helped to
+            create a UI that was both aesthetically pleasing and easy to use.
+          </p>
+          <h5 class="text-primary mb-2">Rick Wright</h5>
+          <p class="text-sm px-2">Executive Engineer</p>
+        </div>
+        <div class="swiper-slide  bg-background border-primary shadow-xl shadow-[#5dadec3b] py-8 px-3 text-white">
+          <img src="./img/review3.svg" alt="" />
+          <p class="text-sm px-2 my-5 text-justify">
+            I recently worked with Saira on a project and was extremely
+            impressed with their creativity and attention to detail. She
+            listened to my ideas and provided valuable input, which helped to
+            create a UI that was both aesthetically pleasing and easy to use.
+          </p>
+          <h5 class="text-primary mb-2">Alega Wind</h5>
+          <p class="text-sm px-2">Software Engineer</p>
+        </div>
+        <div class="swiper-slide  bg-background border-primary shadow-xl shadow-[#5dadec3b] py-8 px-3 text-white">
+          <img src="./img/review1.svg" alt="" />
+          <p class="text-sm px-2 my-5 text-justify">
+            I recently worked with Saira on a project and was extremely
+            impressed with their creativity and attention to detail. She
+            listened to my ideas and provided valuable input, which helped to
+            create a UI that was both aesthetically pleasing and easy to use.
+          </p>
+          <h5 class="text-primary mb-2">Rick Wright</h5>
+          <p class="text-sm px-2">Digital Marketer</p>
+        </div>
+        <div class="swiper-slide object-center	 bg-background border-primary shadow-xl shadow-[#5dadec3b] py-8 px-3 text-white">
+          <img src="./img/review2.svg" alt=""/>
+          <p class="text-sm px-2 my-5 text-justify">
+            I recently worked with Saira on a project and was extremely
+            impressed with their creativity and attention to detail. She
+            listened to my ideas and provided valuable input, which helped to
+            create a UI that was both aesthetically pleasing and easy to use.
+          </p>
+          <h5 class="text-primary mb-2">Mark J.</h5>
+          <p class="text-sm px-2 my-10">Software Developer</p>
+        </div>
+      </div>
+      <div class="swiper-pagination" ></div>
+    </div>
+  </section>
+   <!-- swiper slider -->
+   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+   <script src="./review.js"></script>
+
+
+   <!-- script tags-->
+    <script src="./app.js"></script>
+</body>
+</html>
