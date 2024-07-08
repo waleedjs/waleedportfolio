@@ -21,9 +21,9 @@ const Home = () => {
                 </p>
                 {/* button and social */}
                 <div className="flex flex-col xl:flex-row items-center gap-8">
-                     <a href="/public/my cv.jpg">
+                     <a href="/contact">
                 <Button variant="outline" size="md" className="uppercase flex items-center gap-2">
-                <span>Download CV</span>
+                <span>Visit My CV</span>
                 <FiDownload className="text-xl" />
                 </Button>
                  </a>
