@@ -281,7 +281,7 @@ const Work = () => {
             >
               {projects.map((project, index) => (
                 <SwiperSlide key={index} className='w-full'>
-                  <div className='h-[300px] xl:h-[500px] rounded-md bg-orange-300 relative group flex justify-center items-center'>
+                  <div className='h-[300px] xl:h-[500px] rounded-lg bg-orange-300 relative group flex justify-center items-center'>
                     <div className='relative w-full h-full'>
                     <Link href={project.live} target="_blank" rel="noopener noreferrer">
                       <Image
