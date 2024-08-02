@@ -84,7 +84,7 @@ const Contact = () => {
                 </div>
                 <div className="flex-1">
                   <p className="text-white/60">{item.title}</p>
-                  <h3 className="xl:text-xl text-sm">{item.description}</h3>
+                  <h3 className="xl:text-xl text-sm"> <a href="https://wa.me/923436157817">{item.description}</a></h3>
                 </div>
               </li>
             })}
