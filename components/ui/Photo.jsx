@@ -16,7 +16,7 @@ const Photo = () => {
         initial={{opacity: 0}} animate={{opacity: 1,
       transition: {delay: 2.4, duration: 0.4, ease: "easeInOut"},
       }}
-        className="w-[298px] h-[30px] xl:w-[378px] xl:h-[30px] mix-blend-lighten">
+        className="w-[298px] h-[10px] xl:w-[378px] xl:h-[30px] mix-blend-lighten">
           <Image 
             src="/assets/ph.png" 
             alt="Photo" 
