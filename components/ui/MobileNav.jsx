@@ -26,6 +26,11 @@ const links = [
         name: 'contact',
         path: '/contact'
     },
+    {
+        name: 'download resume',
+        path: '/waleed-zafar-resume.pdf',
+        download: true
+    },
 ];
 
 const MobileNav = () => {
@@ -44,11 +49,11 @@ const MobileNav = () => {
             </div>
             {/* nav */}
      <nav className="flex flex-col justify-center items-center gap-8">
-        {links.map((link, index) => {
-            return (
-                <Link href={link.path} key={index} className={`${link.path === pathname && "text-accent border-b-2 rounded-bl-[3px] rounded-br-[3px]  border-accent"} text-lg capitalize hover:text-accent transition-all`}>{link.name}</Link>
-            );
-        })}
+       {links.map((link, index) => {
+           return (
+               <Link href={link.path} key={index} download={link.download} className={`${link.path === pathname && "text-accent border-b-2 rounded-bl-[3px] rounded-br-[3px]  border-accent"} text-lg capitalize hover:text-accent transition-all`}>{link.name}</Link>
+           );
+       })}
      </nav>
         </SheetContent>
     </Sheet>

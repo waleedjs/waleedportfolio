@@ -15,6 +15,9 @@ const Header = () => {
         {/* Desktop nav and  Hire me Button*/}
         <div className="hidden xl:flex items-center gap-8">
         <Nav />
+        <Link href="/waleed-zafar-resume.pdf" target="_blank" rel="noopener noreferrer">
+            <Button variant="outline">View Resume</Button>
+        </Link>
         <Link href="https://wa.me/923436157817">
             <Button>Hire me</Button>
         </Link>

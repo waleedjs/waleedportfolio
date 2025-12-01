@@ -17,13 +17,14 @@ const Photo = () => {
       transition: {delay: 2.4, duration: 0.4, ease: "easeInOut"},
       }}
         className="w-[298px] h-[2px] xl:w-[378px] xl:h-[30px] mix-blend-lighten">
-          <Image 
-            src="/assets/ph.png" 
-            alt="Photo" 
-            layout="fill" 
-            objectFit="contain" 
-            priority 
-            quality={100} 
+          <Image
+            src="/assets/ph.png"
+            alt="Muhammad Waleed Zafar - Professional Portrait"
+            title="Muhammad Waleed Zafar - WordPress Developer and UI/UX Designer"
+            layout="fill"
+            objectFit="contain"
+            priority
+            quality={100}
           />
         </motion.div>
         {/* circle */}
