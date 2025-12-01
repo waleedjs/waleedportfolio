@@ -212,6 +212,7 @@ const WorkClient = () => {
   return (
     <motion.section initial={{ opacity: 0 }} animate={{ opacity: 1 }} className='min-h-[80vh] flex flex-col justify-center py-5 xl:py-6 xl:px-0'>
       <div className="container mx-auto xl:mt-12">
+        <h1 className="text-4xl font-bold text-center mb-8">My Work</h1>
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold text-white mb-4">My Portfolio</h2>
           <p className="text-white/60 max-w-2xl mx-auto">Explore my latest projects showcasing expertise in WordPress, Shopify, UI/UX design, and front-end development.</p>

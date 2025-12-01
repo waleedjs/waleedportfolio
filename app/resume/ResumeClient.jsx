@@ -175,6 +175,7 @@ const ResumeClient = () => {
     <motion.div className="min-h-[80vh] flex items-center justify-center py-12 xl:py-0" initial={{ opacity: 0 }} animate={{opacity: 1, transition: { delay:2.4, duration:0.4, ease: "easeIn"}}}>
 
       <div className="container mx-auto">
+        <h1 className="text-4xl font-bold text-center mb-8">My Resume</h1>
         <Tabs defaultValue="about" className="flex flex-col xl:flex-row gap-[30px] mt-10">
           <TabsList className="flex flex-col w-full max-w-[380px] mx-auto xl:mx-0 gap-6">
             <TabsTrigger value="about">About me</TabsTrigger>

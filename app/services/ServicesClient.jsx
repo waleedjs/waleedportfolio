@@ -47,6 +47,7 @@ const ServicesClient = () => {
   return (
     <section className="min-h-[100vh] flex flex-col justify-center lg:my-14 py-12 xl:py-0">
       <div className="container mx-auto">
+        <h1 className="text-4xl font-bold text-center mb-8">My Services</h1>
         <motion.div className="grid grid-cols-1 md:grid-cols-2 gap-[30px]" initial={{opacity: 0}} animate={{opacity: 1, transition: {delay: 2.4, duration: 0.4, ease: "easeIn"}}}>
           {services.map((service, index) => {
             return (
